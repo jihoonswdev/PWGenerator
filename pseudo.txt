@@ -1,0 +1,103 @@
+Array of special characters
+ var specialChar = ['@', '!']
+
+Array of numerical characters 
+
+Array of lowerCase characters (look up .split() )
+
+Array of upperCase characters (look up .split() )
+* dont have to split*
+
+
+
+********************************* here ********************
+Create a function that prompts the user for the password options
+    function getUserOptions() {
+
+Create a var to store the length of password from the user input (look up parseInt())
+    var passLength = 
+
+Create a conditional statement to check if the length is an actual number
+Create a conditional to check if PW length is atleast 8 char long
+Create a conditional to check if PW length is lower than 128 chars
+
+Create 4 different conditional statement to store if user password is going to use special char, numbers, lower and upper
+
+Create a conditional statement to check if user included some type of character
+
+Create a variable to store the user input 
+create object to store user input
+
+    var passOptions = {
+    passLength: passLength,
+    specialChars,
+    numerialChars,
+    lowerCase,
+    upperCase
+}
+
+return out passOptions
+
+}
+
+// *************************** to here is 1 function *******************
+
+function for getting a random element from an array
+****check out math.random
+
+function to generate a password with our user input
+    function generatePassword{
+
+create a variable and call our function so we can use data from the previous function.
+    var userOptions = getUserOptions();
+
+Create a variable to store password
+    var results = []
+
+Array to store the type of characters to include in our password
+    var userPosChars = []
+
+Array to contain atleast one of each chosen type of characters to make sure atleast one of every character is being used
+ (validation)
+    var guarChar = []
+
+Create conditional statements that add the array of character into an array of possible characters based on our users input 
++ need to push our random characters tot he guarenteed characters (look up .concat())
+
+if (userOptions.specialChracters) {
+    take chars and concat
+    take characters and push(randomizationFunction(specialCharacter)) (AFTER WE RANDOMIZE)
+}
+
+Create conditional statements that add the array of character into an array of possible characters based on our users input 
++ need to push our random characters tot he guarenteed characters (look up .concat())
+
+if (userOptions.specialChracters) {
+    take chars and concat
+    take characters and push(randomizationFunction(specialCharacter)) (AFTER WE RANDOMIZE)
+}
+
+Create conditional statements that add the array of character into an array of possible characters based on our users input 
++ need to push our random characters tot he guarenteed characters (look up .concat())
+
+if (userOptions.specialChracters) {
+    take chars and concat
+    take characters and push(randomizationFunction(specialCharacter)) (AFTER WE RANDOMIZE)
+}
+
+Create conditional statements that add the array of character into an array of possible characters based on our users input 
++ need to push our random characters tot he guarenteed characters (look up .concat())
+
+if (userOptions.specialChracters) {
+    take chars and concat
+    take characters and push(randomizationFunction(specialCharacter)) (AFTER WE RANDOMIZE)
+}
+
+Create a for loop to pluck out random options objects and grabbing random characters from the array of possible character
+and concat them into the results variable
+
+Create another forloop to guarantee atleast one character from each possible character in the results
+
+Take the result (look up join()) and turn it into a string
+
+}
